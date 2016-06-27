@@ -99,12 +99,12 @@ blockquote {
 .btn-overcolor:hover,
 .btn-overcolor:focus,
 .scroll-top a:hover {
-    border: 1px solid #35404b; /* Hover color */
-    background: #35404b; /* Hover color */
+    border: 1px solid #567989; /* Hover color */
+    background: #567989; /* Hover color */
 }
 
 .full-project:hover {
-    background: #35404b; /* Hover color */
+    background: #567989; /* Hover color */
 }
 
 .btn-overcolor:hover{
@@ -115,7 +115,8 @@ blockquote {
 /* 4:   Secondary color */
 /* ---------------------------------------------- */
 
-.our-clients {
+.our-clients,
+.cta-three-section {
     background: #2b343d; /* Secondary color */
 }
 

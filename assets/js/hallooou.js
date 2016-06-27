@@ -11,7 +11,7 @@ $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
         $(".scroll-top").fadeIn('1000', "easeInOutExpo");
-    } else {
+    } else if (window.location.pathname != "/our_team.html"){
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
         $(".scroll-top").fadeOut('1000', "easeInOutExpo");
     }
